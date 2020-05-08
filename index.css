@@ -37,3 +37,90 @@ body {
     float: right;
     margin: 0 1rem;
 }
+
+.navigation {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+
+}
+
+#soulcycle-logo-icon {
+    fill: #fff;
+    width: 15rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__link--group {
+    display: flex;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.navigation__link--item,
+.navigation__link--item:link,
+.navigation__link--item:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.navigation__link--item:hover,
+.navigation__link--item:active {
+
+    color: #fff;
+}
+
+.navigation__login--group {
+    display: flex;
+}
+
+.navigation__login--item,
+.navigation__login--item:link,
+.navigation__login--item:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.navigation__login--item:active,
+.navigation__login--item:hover {
+    color: #fff;
+}
+
+.primary__heading {
+    font-size: 5rem;
+    line-height: 1;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-weight: 1rem;
+    font-weight: bold;
+}
+
+.btn-yellow {
+    background: #FFDE00;
+}
+
+.header__heading {
+    padding: 15rem 0;
+}
+
+.mt-header {
+    margin-top: 4rem;
+}
