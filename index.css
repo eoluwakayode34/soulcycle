@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: HelveticaNeueLTStd-Roman-Normalized, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.top-area {
+    text-align: center;
+    position: fixed;
+    background: rgba(233, 233, 233, 0.171);
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+
+}
+
+.header {
+    background: url('https://images.ctfassets.net/u860i9c783wb/6f8xBZINkW2FquWTXcHO5i/f6da0571ae9ee931ea472cf7bffa9748/042720_HP_v2.jpg?w=1536&fit=fill&f=top&q=75&fm=webp');
+    height: 93vh;
+    background-size: cover;
+}
+
+.cancel {
+    float: right;
+    margin: 0 1rem;
+}
