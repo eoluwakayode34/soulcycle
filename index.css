@@ -124,3 +124,142 @@ body {
 .mt-header {
     margin-top: 4rem;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.heading-secondary {
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+
+.yellow-hr::before {
+    content: "";
+    display: block;
+    width: 2.7rem;
+    height: 2px;
+    background: #FFDE00;
+    margin: 1rem auto;
+
+}
+
+.section-getmoresoul {
+    padding: 7rem 0;
+}
+
+.get-more-soul__box--group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.get-more-soul__box--item {
+    position: relative;
+    width: 38rem;
+    height: 50rem;
+
+}
+
+.get-more-soul__box--item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.get-more-soul__box--text {
+    left: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    padding: 2rem 0;
+    margin: 0 10%;
+}
+
+.soul__text--header {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.soul__text--subtitle {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    padding: 1rem 0;
+}
+
+.mt-6 {
+    margin-top: 5rem;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.move-your-body {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.move-your-body__p {
+    width: 90%;
+    margin: 0 5%;
+
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(83, 86, 90);
+}
+
+.mt-6 {
+    margin-top: 3rem;
+}
+
+.section-features-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 9rem 0;
+}
+
+.section-heading {
+    font-size: 5rem;
+    line-height: 1;
+    color: #000;
+}
+
+.section-features-item {
+    flex-basis: 40%;
+}
+
+.section-features-item-2 {
+    flex-basis: 55%;
+
+}
+
+.section-feature-p {
+    color: rgb(83, 86, 90);
+    font-size: 2rem;
+    padding: 3rem 0;
+
+
+}
+
+.section-features-img {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.section-feature__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.pr {
+    padding-left: 2rem;
+}
