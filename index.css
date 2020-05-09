@@ -263,3 +263,46 @@ body {
 .pr {
     padding-left: 2rem;
 }
+
+.section-app {
+    background-color: rgb(255, 222, 0);
+    height: 30rem;
+    margin-top: 20rem;
+
+
+}
+
+.mobile-phone {
+    width: 40rem;
+    margin-top: -16%;
+
+}
+
+.section-app__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-heading__text{
+    font-size: 4rem;
+    color: #000;
+}
+
+.download--text{
+    font-size: 3rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.donwload__icon{
+    width: 15rem;
+}
+
+.section-app__item-1{
+    flex-basis: 40%;
+    align-self: center;
+}
+
+.download__icon--group{
+    margin: 2rem 0;
+}
